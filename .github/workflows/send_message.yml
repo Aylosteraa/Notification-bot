@@ -1,8 +1,8 @@
 name: Send message
-on:
-  schedule:
-    - cron: "0 9 * * *" # Щодня о 09:00 (UTC)
-  workflow_dispatch: # Дозволяє запуск вручну
+# on:
+  # schedule:
+  #   - cron: "0 9 * * *" # Щодня о 09:00 (UTC)
+  # workflow_dispatch: # Дозволяє запуск вручну
 
 jobs:
   send-message:
